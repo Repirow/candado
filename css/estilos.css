@@ -1,0 +1,22 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-size: 1.6rem;
+    margin: 0;
+    background-color:lightblue ;
+}
+.contenedor{
+
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 8rem;
+    background-color: oldlace;
+    border-radius: 2rem;
+    text-align: center;
+}
+
