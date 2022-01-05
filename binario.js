@@ -27,11 +27,15 @@ function scribid()
             lista.push(z);
         }
         else{
-            i = i +1;
-            console.log("Está repetido" + " " + i);
+            console.log("Está repetido");
         }
     }while(bandera == true);
-    console.log(z);
+    
+    const pantalla = document.querySelector(' .pantalla ');
+    pantalla.textContent = z;
+    ordenar();
+    
+    //console.log(z);
 }
 
 function buscar(target)
@@ -64,7 +68,10 @@ function ordenar()
             }
         }
     }
-    console.log(lista);
+    
+    const cantidad = document.querySelector('.sub-indice');
+    cantidad.textContent = lista.length;
+    //console.log(lista);
 }
 
 

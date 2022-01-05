@@ -21,18 +21,38 @@ p{
     border-radius: 2rem;
     text-align: center;
 }
-/*.contenido{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-}*/
+.contenido{
+    width: 25rem;
+    margin: 0 auto;
+}
+.central{
+    width: 21rem;
+    margin: 0 auto;
+}
 .titulo{
     margin: 0;
     padding: 3rem 0 3rem 0;
     font-size: 4rem;
 }
-.pantalla{
+.contenedor-pantalla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 8rem;
     text-align: center;
+    margin: 0 auto 3rem auto;
+}
+.pantalla{
+    display:inline;
+    text-align: center;
+    margin: 0;
+    font-size: 7rem;
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
 }
 .boton{
     width: 10rem;
